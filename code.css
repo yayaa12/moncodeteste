@@ -1,0 +1,52 @@
+.colonnee {
+    display: flex;
+    flex-direction: row;
+background:rebeccapurple ;
+justify-content: space-between;
+}
+.colonnee img {
+    width: 500px;
+    height: 210px;
+    object-fit: cover;
+}
+.transport{
+    font-size: 32px;
+    cursor: pointer;
+    border: 1px solid #94a3b8;
+    border-radius: 4px;
+    padding: 4px;
+    display: inline-block;
+    margin-left: 7px;
+    position: relative;
+}
+.transport:focus-within{
+    background-color: #94a3b8;
+}
+input[type=radio]{
+    position: absolute;
+    opacity: 0;
+}
+.projetb{
+    text-align: center;
+}
+.visubleInDark{
+    display: none;
+}
+.visubleInWhite{
+    display: inline-block;
+}
+
+@media(prefers-color-scheme: dark) {
+    body{
+        background-color: #0f172a;
+    }
+    h1,h2,p{
+        color: beige;
+    }
+    .visubleInWhite {
+        display: none;
+    }
+    .visubleInDark{
+        display: inline-block;
+    }
+}
