@@ -1,7 +1,7 @@
 .colonnee {
     display: flex;
     flex-direction: row;
-background:rebeccapurple ;
+background:transparent ;
 justify-content: space-between;
 }
 .colonnee img {
